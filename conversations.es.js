@@ -1715,10 +1715,7 @@ function Dn(e, t) {
     }
     T(i, !0), T(s, null);
     try {
-      const c = {
-        // 'Access-Control-Allow-Origin': '*',
-        "Content-Type": "application/json"
-      };
+      const c = { "Content-Type": "application/json" };
       n() && (c.Authorization = `Bearer ${n()}`);
       const _ = await fetch(r(), { method: "GET", headers: c });
       if (!_.ok)
