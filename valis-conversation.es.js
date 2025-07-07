@@ -3728,7 +3728,7 @@ function mi(e, t) {
       a,
       new Fr({
         id: r(),
-        api: `/api/v1/chat/completions/conversations/${r()}`,
+        api: `https://ai.valis.jala.university/api/v1/chat/completions/conversations/${r()}`,
         sendExtraMessageFields: !0,
         body: { stream: !0 },
         onError: (_) => {
